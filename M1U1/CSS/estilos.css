@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #FDAF75;
+}
+img{
+    width: 35%;
+}
+
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1em;
+}
+nav a{
+    color: #8D8DAA;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blue;
+}
