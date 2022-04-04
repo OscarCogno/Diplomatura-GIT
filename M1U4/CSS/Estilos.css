@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #FDAF75;
+    padding: 0.5em;
+    
+    
+}
+img{
+    width: 35%;
+}
+ul{
+    font-family: Fraklin Gothic Medium;
+}
+ol{
+    font-family: Impact;
+}
+p{
+    font-family: Gill Sans;
+    font-size: 16px;
+
+}
+h3:hover{
+    text-decoration: none;
+    color: aquamarine;
+}
