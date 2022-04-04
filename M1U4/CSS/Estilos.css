@@ -20,7 +20,10 @@ p{
     font-size: 16px;
 
 }
-h3:hover{
-    text-decoration: none;
+h3 a:hover{
+    
     color: aquamarine;
+}
+h3 a{
+    text-decoration: none;
 }
