@@ -11,9 +11,11 @@ img{
 }
 ul{
     font-family: Fraklin Gothic Medium;
+    color: azure;
 }
 ol{
     font-family: Impact;
+    color: aliceblue;
 }
 p{
     font-family: Gill Sans;
@@ -26,4 +28,8 @@ h3 a:hover{
 }
 h3 a{
     text-decoration: none;
+}
+div{
+    color:rebeccapurple;
+    font-family:Courier New;
 }
