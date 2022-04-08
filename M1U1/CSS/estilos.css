@@ -4,7 +4,8 @@ body{
     background: #FDAF75;
 }
 img{
-    width: 35%;
+    width: 25%;
+  
 }
 
 nav{
@@ -20,4 +21,20 @@ nav a{
 
 nav a:hover{
     color: blue;
+}
+section{
+    width: 500px;
+    height: 450px;
+    float: left;
+
+}
+aside{
+    width: 500;
+    height: 400px;
+    float: left;
+}
+.center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
