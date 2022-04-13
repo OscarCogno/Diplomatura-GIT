@@ -82,9 +82,19 @@ nav{
     box-sizing: border-box;
     margin: auto;
 }
+.centrar {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: lucida Sans;
+    
+}
 
 @media (max-width: 600px){
     nav{
+         margin: 10px 0; 
         background: black;
         flex-direction: column;
         
@@ -95,6 +105,7 @@ nav{
     }
     .nav-boton{
         display: inline-block;
+         margin: 10px 0; 
         
     }
     .contenedor-columnas{
