@@ -65,6 +65,13 @@ nav{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.espacio{
+  margin-top: 10px;
 }
 
 .contenedor-columnas{
@@ -114,5 +121,6 @@ nav{
         width: 550px;
         margin: 10px 0;
     }
+    
 }
 
