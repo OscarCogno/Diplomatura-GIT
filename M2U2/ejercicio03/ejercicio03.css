@@ -22,9 +22,10 @@
 	background-color: red;
 	width: 147px;
 	height: 146px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 20px;
-	line-height: 150px;
 	color: white;
     
 }
@@ -33,9 +34,10 @@
 	background-color: blue;
 	width: 147px;
 	height: 146px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 20px;
-    line-height: 150px;
 	color: white;
 }
 
@@ -43,9 +45,10 @@
 	background-color: green;
 	width: 147px;
 	height: 146px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 20px;
-    line-height: 150px;
 	color: white;
 }
 
