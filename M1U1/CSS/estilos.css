@@ -8,22 +8,7 @@ img{
   
 }
 
- /* nav{
-    background: aquamarine;
-    text-align: center;
-    padding: 10px 30px;
-    display: inline-block;
-}
-nav a{
-    background: aquamarine;
-    color: #8D8DAA;
-    padding: 10px 30px;
-    text-decoration: none;
-    display:inline-block;
-}
-nav a:hover{
-    color: blue; 
-} */
+
 .nav-enlace{
     display: inline-block;
     background: salmon;
@@ -60,16 +45,6 @@ nav{
 }
 
 
-/* section{
-    width: 500px;
-    height: 450px;
-    float: left; 
-} */
-/* aside{
-    width: 250;
-    height: 250px;
-    float: right;
-} */
 .center img{
     display: block;
     margin-left: auto;
