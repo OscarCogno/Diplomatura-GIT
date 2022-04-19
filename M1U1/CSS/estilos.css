@@ -49,6 +49,15 @@ nav{
     display: none;
 }
     
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div{
+    margin: 5px;
+    flex-basis: 100%;
+}
 
 
 /* section{
@@ -74,19 +83,7 @@ nav{
   margin-top: 10px;
 }
 
-.contenedor-columnas{
-    width: 100%;
-    margin: auto;
-    margin-bottom: 50px;
-}
-.columnasx3{
-    display: table-cell;
-    width: 33%;
-    float: left;
-    padding: 20px 20px;
-    box-sizing: border-box;
-    margin: auto;
-}
+
 .centrar {
     
     display: flex;
@@ -113,14 +110,12 @@ nav{
          margin: 10px 0; 
         
     }
-    .contenedor-columnas{
-        width: 550px;
-        margin: 10px 0;
+    .flex-container{
+        display: flex;
+        flex-direction: column;
     }
-    .columnasx3{
-        width: 550px;
-        margin: 10px 0;
+    .flex-container div{
+        flex-basis: 100%;
     }
-    
 }
 
