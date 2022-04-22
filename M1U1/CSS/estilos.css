@@ -92,5 +92,8 @@ nav{
     .flex-container div{
         flex-basis: 100%;
     }
+    .desaparece{
+        display: none;
+    }
 }
 
