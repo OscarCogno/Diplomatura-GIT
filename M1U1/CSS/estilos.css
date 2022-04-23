@@ -15,6 +15,7 @@ img{
     color: #fff;
     padding: 10px 30px;
     text-decoration: none;
+    text-align: center;
 }
 .nav-enlace:hover{
     background:  blue;
@@ -33,6 +34,8 @@ nav{
     border: 2px solid #fff;
     display: none;
 }
+
+
     
 .flex-container{
     display: flex;
@@ -78,12 +81,14 @@ nav{
     }
     .nav-enlace{
         margin: 10px 0;
-        
+        background: white;
+        color: blue;
     }
     .nav-boton{
         display: inline-block;
          margin: 10px 0; 
-        
+         background: white;
+         color: blue;
     }
     .flex-container{
         display: flex;
@@ -95,5 +100,12 @@ nav{
     .desaparece{
         display: none;
     }
+    .nav-boton:hover{
+        background: lightslategray ;
+        color: white;
+     }
+     .nav-enlace:hover{
+        background:  lightslategray;
+        color: white;
 }
 
