@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+	
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+@media (max-width: 800px){
+	#contenedor h1{
+		background: grey;
+		margin: 0 0 0 0;
+		padding-bottom: 20px ;
+	}
+	nav{
+		background: #FFD36E; 
+		width: 800px;
+		
+	}
+	nav ul a{
+		color: black;
+		font-size: 85%;
+		line-height: 2;
+		
+	}
+	#contenedor{
+   display: flex;
+   flex-direction: column;
+   margin-top: 0;
+   margin-left: 0;
+  
+	}
+	section{
+		border: 0.5px solid #000;
+		margin: 0 0 0 0;
+		width: 800px;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	aside{
+		border: 0.5px solid #000;
+		width: 800px;
+	}
+	h2{
+		padding: 6px;	
+	}
+	p{
+		padding: 6px;
+		font-size: 19px;
+	}
+	body{
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
