@@ -18,9 +18,56 @@
          <div class="text-center border border-white text-warning bg-success col-sm-12">HEADER</div>
         </div>
         <div class="row">
-          <div class="text-center border border-white text-light bg-dark col-sm-6 col-md-3 d-none d-sm-block">IZQUIERDA</div>
-          <div class="text-center border border-white bg-primary         col-sm-6 col-md-6">CONTENIDO</div>
-          <div class="text-center border border-white bg-danger          col-sm-12 col-md-3">DERECHA</div>
+          <div class="text-center border border-white text-light bg-dark col-sm-4 col-md-2 d-none d-sm-block">IZQUIERDA</div>
+          <div class="text-center border border-white bg-primary         col-sm-8 col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="text-center border border-white bg-danger          col-sm-12 col-md-4">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text text-light">Nunca compartiremos tu correo electrónico con nadie más.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Chequear</label>
+              </div>
+              <button type="submit" class="btn btn-dark">Entrar</button>
+            </form>
+          </div>
         </div>
         <div class="row">
           <div class="text-center border border-white text-white bg-success col-sm-12">FOOTER</div>
