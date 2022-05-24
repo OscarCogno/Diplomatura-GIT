@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+   var n ;
+   var arreglo = [];
+   n=prompt('Ingrese cuantos numeros necesita:','');
+    document.write('Ingreso ' +n+ ' numeros');
+     
+    for(var i=0;i<n;i++){
+     arreglo[i]=parseInt(prompt());
+     
+    document.write(`<br> posicion[${i}]=${arreglo[i]}`);
+        }
+        
+   var maximo= arreglo[0];
+   var pos = -1;
+        for(var i=1;i<n;i++){
+     if ( maximo < arreglo[i]){
+                maximo = arreglo[i];
+                pos=i;
+            }
+        }
+        document.write(' <br>El mayor es ' + maximo + ' y esta en la posicion ' + pos);
+        
+    </script>
+</body>
+</html>
