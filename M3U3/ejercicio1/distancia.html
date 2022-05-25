@@ -13,8 +13,9 @@
     
         numero=prompt('Ingrese distancia:','');
         document.write(numero);
+        if(numero > 0){
 
-        if(numero <=1000){
+        if(numero >0 && numero <=1000){
             document.write(' metros ve caminando');
         }
         else if(numero>1000 && numero<=10000){
@@ -28,6 +29,11 @@
         }
         else{
             document.write(' metros ve en avión')
+        }
+    }
+
+        else{
+              document.write(' Escriba un numero positivo');
         }
     </script>  
 </body>
