@@ -1,0 +1,90 @@
+.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#btngreen{
+  position: absolute;
+  top: 460px;
+  left: 410px;
+}
+#btnblue{
+  position: absolute;
+  top: 460px;
+  left: 630px;
+}
+#btnyellow{
+  position: absolute;
+  top: 460px;
+  left: 860px;
+}
+
+input{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 60px;
+  border: 3px groove white;
+  background: red;
+  margin-right: 20px;
+}
+
+input{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 60px;
+  border: 3px groove white;
+  background: grey;
+  margin-right: 20px;
+}
+
+input{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 60px;
+  border: 3px groove white;
+  background: blue;
+}

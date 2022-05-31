@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de caracteres</title>
+</head>
+<body>
+    <h1>Contador de caracteres</h1>
+
+   <form name="form_main">
+
+    <fieldset>
+        <legend>Contador</legend>
+        <label for="text">Texto:</label> <br>
+        <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea> <br>
+        <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span><br>
+        <label for="palabras">Palabras:</label><span id="palabras"></span><br>
+        <label for="lineas">Lineas:</label><span id="lineas"></span><br>
+    </fieldset>
+   </form>
+
+
+    <script src="JS/contador.js"></script>
+</body>
+</html>
