@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="CSS/estilos.css">
   <link rel="stylesheet" href="CSS/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  <script src="JS/menu.js"></script>
+ <script src="JS/menu.js"></script>
   <script src="https://kit.fontawesome.com/f8ec4fb808.js" crossorigin="anonymous"></script>
 </head>
 
@@ -30,7 +30,7 @@
     <a href="Ofertas de la Semana.html" class="nav-enlace desaparece">Ofertas de la Semana</a>
 
   </nav>
-  <form class="formulario">
+  <form class="formulario" name="form_main">
     <main>
       
       <label class="correr" for="Información del cliente"><b>Información del cliente:</b></label><br><br>
@@ -54,8 +54,11 @@
       <label class="correr" for="Ingrese su mensaje"><b>Ingrese su mensaje:</b></label>
       <br><br>
       <fieldset>
-        <textarea name="Mensaje" required id="" cols="30" rows="10"></textarea>
-        <br><br>
+        <label for="text">Texto:</label> <br>
+        <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea> <br>
+        <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span><br>
+        <label for="palabras">Palabras:</label><span id="palabras"></span><br>
+        <label for="lineas">Lineas:</label><span id="lineas"></span><br>
         <input type="submit" value="Enviar">
 
       </fieldset>
@@ -85,6 +88,8 @@
   </main>
 
   <footer>Todos los derechos reservados</footer>
+
+ 
 </body>
 
 </html>
