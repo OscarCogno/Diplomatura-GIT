@@ -11,7 +11,7 @@ const CuentaPage = (props) => {
 
                     <p>
                         <legend></legend>
-                        <label><i class="fa-solid fa-envelope"></i> Email:</label>
+                        <label><i className="fa-solid fa-envelope"></i> Email:</label>
                         <input type="Email" autofocus placeholder="Email" required/>
                     </p>
                     <p>
@@ -41,7 +41,7 @@ const CuentaPage = (props) => {
                         <input type="CUIT" placeholder="CUIT" required/>
                     </p>
                     <p>
-                        <label> <i class="fa-solid fa-mobile"></i>Teléfono:</label>
+                        <label> <i className="fa-solid fa-mobile"></i>Teléfono:</label>
                         <input type="Teléfono" placeholder="Teléfono" required/>
                     </p>
                    
