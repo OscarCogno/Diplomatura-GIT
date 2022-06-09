@@ -5,7 +5,7 @@ import React from 'react';
 const Nav = (props) => {
     return (
         <nav>
-            <button className="nav-boton" onclick="accion()">Menú</button>
+            {/* <button className="nav-boton" onclick="accion()">Menú</button> */}
             <ul>
                <li><Link to="/" className=" activo nav-enlace desaparece">Home</Link></li>
                <li><Link to="/Cuenta" className=" activo nav-enlace desaparece">Cuenta</Link></li>
