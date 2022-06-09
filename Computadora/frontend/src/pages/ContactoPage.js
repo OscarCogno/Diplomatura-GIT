@@ -27,7 +27,7 @@ const ContactoPage = (props) => {
       <label className="correr" for="Ingrese su mensaje"><b>Ingrese su mensaje:</b></label>
       
       <fieldset>
-        <label for="text">Texto:</label> 
+        <label for="text">Mensaje:</label> 
         <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea> 
         <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span>
         <label for="palabras">Palabras:</label><span id="palabras"></span>
