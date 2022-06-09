@@ -8,9 +8,9 @@ import Footer from './components/layout/Footer';
 import ContactoPage from './pages/ContactoPage';
 import EmpresaPage from './pages/EmpresaPage';
 import HomePage from './pages/HomePage';
-import OfertasPage from './pages/OfertasPage';
 import CuentaPage from './pages/CuentaPage';
 import ServicioPage from './pages/ServicioPage';
+import OfertasPage from './pages/OfertasPage';
 
 function App() {
   return (
