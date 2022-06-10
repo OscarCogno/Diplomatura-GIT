@@ -23,9 +23,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="Empresa" element={<EmpresaPage />} />
           <Route path="Contacto" element={<ContactoPage />} />
-          <Route path="Ofertas de la semana" element={<OfertasPage />} />
+          <Route path="Ofertas-de-la-semana" element={<OfertasPage />} />
           <Route path="Cuenta" element={<CuentaPage />} />
-          <Route path="Servicio al Cliente" element={<ServicioPage />} />
+          <Route path="Servicio-al-cliente" element={<ServicioPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

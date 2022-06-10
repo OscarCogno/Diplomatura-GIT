@@ -3,6 +3,9 @@ import React from "react";
 const ServicioPage = (props) => {
     return (
         <main>
+            <div className="container">
+            <div className="caja caja1"> <img src="img/reparacion.jpg" width="300" alt="reparar"/></div>
+        </div>
             <div className="centrar">
                 <h1>Servicio Tecnico</h1>
 

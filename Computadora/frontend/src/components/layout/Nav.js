@@ -10,9 +10,9 @@ const Nav = (props) => {
                <li><Link to="/" className=" activo nav-enlace desaparece">Home</Link></li>
                <li><Link to="/Cuenta" className=" activo nav-enlace desaparece">Cuenta</Link></li>
                <li><Link to="/Empresa" className=" activo nav-enlace desaparece">Empresa</Link></li>
-               <li><Link to="/Servicio al Cliente" className=" activo nav-enlace desaparece"> Servicio al Cliente</Link></li>
+               <li><Link to="/Servicio-al-cliente" className=" activo nav-enlace desaparece"> Servicio al cliente</Link></li>
                <li><Link to="/Contacto" className=" activo nav-enlace desaparece">Contacto</Link></li>
-               <li><Link to="/Ofertas de la Semana" className=" activo nav-enlace desaparece">Ofertas de la Semana</Link></li>
+               <li><Link to="/Ofertas-de-la-semana" className=" activo nav-enlace desaparece">Ofertas de la semana</Link></li>
             </ul>
         </nav>
     );
