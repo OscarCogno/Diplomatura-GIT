@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/components/pages/estilos.css';
+import '../styles/components/pages/normalize.css';
 
 const ContactoPage = (props) => {
     return (
@@ -27,11 +29,11 @@ const ContactoPage = (props) => {
       <label className="correr" for="Ingrese su mensaje"><b>Ingrese su mensaje:</b></label>
       
       <fieldset>
-        <label for="text">Mensaje:</label> 
-        <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea> 
-        <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span>
-        <label for="palabras">Palabras:</label><span id="palabras"></span>
-        <label for="lineas">Lineas:</label><span id="lineas"></span>
+        <label for="text">Mensaje:</label><br></br>
+        <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea><br></br>
+        <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span><br></br>
+        <label for="palabras">Palabras:</label><span id="palabras"></span><br></br>
+        <label for="lineas">Lineas:</label><span id="lineas"></span><br></br>
         <input type="submit" value="Enviar"/>
 
       </fieldset>

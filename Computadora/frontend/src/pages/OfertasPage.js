@@ -1,4 +1,6 @@
 import React from "react";
+import '../styles/components/pages/estilos.css';
+import '../styles/components/pages/normalize.css';
 
 const OfertasPage = (props) => {
   return (

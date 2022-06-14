@@ -1,9 +1,11 @@
 import React from 'react';
+import '../styles/components/pages/estilos.css';
+import '../styles/components/pages/normalize.css';
 
 const CuentaPage = (props) => {
     return (
         <main>
-
+     
         <h1><b>Registro de usuario</b></h1>
         
             <fieldset>

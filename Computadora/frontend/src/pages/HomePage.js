@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/components/pages/estilos.css';
+import '../styles/components/pages/normalize.css';
 
 const HomePage = (props) => {
   return (
     <main>
       <div className="flex-container">
-      <fieldset>
         <div>
           <h3><b>Productos</b></h3>
           <form className="formulario">
@@ -20,8 +21,8 @@ const HomePage = (props) => {
 
             </form>
             </div>
-            </fieldset>
-            <fieldset>
+           
+            
             <div>
               <h3><b>Iniciar sesión</b></h3>
 
@@ -52,8 +53,8 @@ const HomePage = (props) => {
               </form>
 
             </div>
-            </fieldset>
-     <fieldset>
+            
+     
             <div>
               <form className="formulario">
                 <h3 className="izquierda"> <b>Horarios de Atención:</b></h3>
@@ -65,7 +66,7 @@ const HomePage = (props) => {
                 <li><label className="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label></li>
               </form>
             </div>
-            </fieldset>
+            
         </div>
     </main>
   );
