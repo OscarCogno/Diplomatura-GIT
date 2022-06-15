@@ -63,7 +63,7 @@ const HomePage = (props) => {
                 <li><label className="center" for="Horarios"><i> Miercoles:</i> 08:00-12:00,16:00-20:00</label></li>
                 <li><label className="center" for="Horarios"><i> Jueves:</i> 08:00-12:00,16:00-20:00</label></li>
                 <li><label className="center" for="Horarios"><i> Viernes:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label></li>
+                <li><label className="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label></li><br></br>
               </form>
             </div>
             
