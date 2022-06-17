@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/components/pages/estilos.css';
 import '../styles/components/pages/normalize.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMobile} from '@fortawesome/free-solid-svg-icons'
 
 const CuentaPage = (props) => {
     return (
@@ -10,10 +12,10 @@ const CuentaPage = (props) => {
         
             <fieldset>
                 <form className="formulario">
-
+               
                     <p>
                         <legend></legend>
-                        <label><i className="fa-solid fa-envelope"></i> Email:</label>
+                        <label><FontAwesomeIcon icon= {faEnvelope} /> Email:</label>
                         <input type="Email" autofocus placeholder="Email" required/>
                     </p>
                     <p>
@@ -43,8 +45,8 @@ const CuentaPage = (props) => {
                         <input type="CUIT" placeholder="CUIT" required/>
                     </p>
                     <p>
-                        <label> <i className="fa-solid fa-mobile"></i>Teléfono:</label>
-                        <input type="Teléfono" placeholder="Teléfono" required/>
+                        <label><FontAwesomeIcon icon= {faMobile} /> Celular:</label>
+                        <input type="Celular" placeholder="Celular" required/>
                     </p>
                    
                     <input type="submit" value="Enviar"/>

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/components/pages/estilos.css';
 import '../styles/components/pages/normalize.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMobile, faPhone} from '@fortawesome/free-solid-svg-icons'
 
 const ContactoPage = (props) => {
     return (
@@ -21,7 +23,7 @@ const ContactoPage = (props) => {
           
         </p>
         <p>
-          <label htmlFor="Email">Email:</label>
+          <label htmlFor="Email"><FontAwesomeIcon icon= {faEnvelope} /> Email:</label>
           <input type="text" required name="email" placeholder="Email"/>
           
         </p>
@@ -41,14 +43,13 @@ const ContactoPage = (props) => {
       <label className="correr" htmlFor="Informacion de contacto"><b>Información de contacto: </b></label>
       <fieldset>
         <p>
-          <label htmlFor="Email:"> <i
-              className="fa-solid fa-envelope"></i><b><i>Email: </i></b>tuproximacompu@gmail.com</label>
+          <label htmlFor="Email:"> <FontAwesomeIcon icon= {faEnvelope} /><b> Email:</b> tuproximacompu@gmail.com</label>
         </p>
         <p>
-          <label htmlFor="Celular"> <i className="fa-solid fa-mobile"></i><b><i>Celular: </i></b>3435123456</label>
+          <label htmlFor="Celular"> <FontAwesomeIcon icon= {faMobile} /><b><i> Celular: </i></b>3435123456</label>
         </p>
         <p>
-          <label htmlFor="Teléfono Fijo"> <i className="fa-solid fa-phone"></i><b><i>Teléfono
+          <label htmlFor="Teléfono Fijo"> <FontAwesomeIcon icon= {faPhone} /><b><i> Teléfono
                 fijo: </i></b>4363431</label>
         </p>
         <p>
