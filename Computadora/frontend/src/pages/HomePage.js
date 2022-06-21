@@ -58,12 +58,12 @@ const HomePage = (props) => {
             <div>
               <form className="formulario">
                 <h3 className="izquierda"> <b>Horarios de Atención:</b></h3>
-                <li><label className="center" for="Horarios"> <i>Lunes:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Martes:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Miercoles:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Jueves:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Viernes:</i> 08:00-12:00,16:00-20:00</label></li>
-                <li><label className="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label></li><br></br>
+                <label className="center" for="Horarios"> <i>Lunes:</i> 08:00-12:00,16:00-20:00</label><br></br>
+                <label className="center" for="Horarios"><i> Martes:</i> 08:00-12:00,16:00-20:00</label><br></br>
+                <label className="center" for="Horarios"><i> Miercoles:</i> 08:00-12:00,16:00-20:00</label><br></br>
+                <label className="center" for="Horarios"><i> Jueves:</i> 08:00-12:00,16:00-20:00</label><br></br>
+                <label className="center" for="Horarios"><i> Viernes:</i> 08:00-12:00,16:00-20:00</label><br></br>
+                <label className="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label><br></br>
               </form>
             </div>
             
