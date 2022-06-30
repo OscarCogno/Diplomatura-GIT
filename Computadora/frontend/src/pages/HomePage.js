@@ -7,16 +7,11 @@ const HomePage = (props) => {
     <main>
       <div className="flex-container">
         <div>
-          <h3><b>Productos</b></h3>
+          
           <form className="formulario">
 
-
-            <select>
-              <option>Placa Madre</option>
-              <option>Microcontrolador</option>
-              <option>Discos</option>
-              <option>Memoria</option>
-            </select>
+           <p className='cambiofuente'>Siempre da lo mejor de tí, y lo mejor vendra</p>
+          
 
 
             </form>
