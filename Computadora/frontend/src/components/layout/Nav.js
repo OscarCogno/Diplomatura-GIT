@@ -22,7 +22,7 @@ const Nav = (props) => {
             <NavLink to="/Empresa" className={`nav-enlace ${!menuToggle && 'desaparece'}`}>Empresa</NavLink>
             <NavLink to="/Servicio-al-cliente" className={`nav-enlace ${!menuToggle && 'desaparece'}`}> Servicio al cliente</NavLink>
             <NavLink to="/Contacto" className={`nav-enlace ${!menuToggle && 'desaparece'}`}>Contacto</NavLink>
-            <NavLink to="/Ofertas-de-la-semana" className={`nav-enlace ${!menuToggle && 'desaparece'}`}>Ofertas de la semana</NavLink>
+            <NavLink to="/Productos" className={`nav-enlace ${!menuToggle && 'desaparece'}`}>Productos</NavLink>
         </nav>
     );
 }

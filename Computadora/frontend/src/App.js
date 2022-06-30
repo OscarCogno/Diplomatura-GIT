@@ -10,7 +10,7 @@ import EmpresaPage from './pages/EmpresaPage';
 import HomePage from './pages/HomePage';
 import CuentaPage from './pages/CuentaPage';
 import ServicioPage from './pages/ServicioPage';
-import OfertasPage from './pages/OfertasPage';
+import ProductosPage from './pages/ProductosPage';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="Empresa" element={<EmpresaPage />} />
           <Route path="Contacto" element={<ContactoPage />} />
-          <Route path="Ofertas-de-la-semana" element={<OfertasPage />} />
+          <Route path="Productos" element={<ProductosPage />} />
           <Route path="Cuenta" element={<CuentaPage />} />
           <Route path="Servicio-al-cliente" element={<ServicioPage />} />
         </Routes>
