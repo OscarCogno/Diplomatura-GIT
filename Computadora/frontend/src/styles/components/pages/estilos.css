@@ -197,6 +197,7 @@ footer{
 .cambiofuente{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 50px;
+    text-align: center;
 }
 
 @media (max-width: 600px){
