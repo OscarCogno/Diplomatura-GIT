@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="./../../public/stylesheets/estilos.css">
-  <link rel="stylesheet" href="./../../public/stylesheets/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <script src="JS/menu.js"></script>
-  <script src="https://kit.fontawesome.com/f8ec4fb808.js" crossorigin="anonymous"></script>
-</head>
-
 
       <div className="flex-container">
         <div>
@@ -33,17 +16,18 @@
               <h3><b>Iniciar sesión</b></h3>
 
 
-              <form className="formulario">
+              <form  className="formulario" action ="admin/login" method="post">
                 <p>
                   <label>Email:</label>
-                  <input type="Email" autofocus placeholder="Email" required/>
+                  <input type="Email" class="form-control " id="inputUser" autofocus placeholder="Email" name="email" required/>
                 </p>
                 <p>
                   <label>Contraseña:</label>
-                  <input type="password" placeholder="Su contraseña"  required/>
+                  <input type="Password" class="form-control" id="inputPassword" placeholder="Password" name="password" required/>
                 </p>
 
-                <input type="submit" value="Entrar" />
+                 <input type="submit" value="Entrar" /> 
+                
                  
               </form>
               {{#if error}}
@@ -56,7 +40,7 @@
               <form className="formulario">
                 <p>
                   <label>Email:</label>
-                  <input type="Email" autofocus placeholder="Email" required />
+                  <input type="Email" autofocus placeholder="Email" name="email" required />
                 </p>
 
                 <input type="submit" value="Enviar"/>
