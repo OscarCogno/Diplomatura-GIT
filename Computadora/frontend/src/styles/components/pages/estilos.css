@@ -168,6 +168,23 @@ nav  a.activo{
 }
 .caja{
     margin: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.caja h1{
+    margin: 15px;
+    text-align: center;
+}
+
+.caja h2{
+    margin: 15px;
+    text-align: center;
+}
+
+.caja h3{
+    margin: 15px;
+    text-align: center;
 }
 .caja p{
     text-align: center;
